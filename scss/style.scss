@@ -1,0 +1,65 @@
+@import "null";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Rubik:wght@400;700&display=swap");
+/*
+font-family: "Raleway", sans-serif;
+font-family: "Rubik", sans-serif;
+*/
+/*базовые настройки*/
+html,
+body {
+	height: 100%;
+	line-height: 1;
+}
+body {
+	font-family: "Rubik", sans-serif;
+	font-size: 12px;
+	color: #616161;
+}
+/*--------------*/
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+/*--------------*/
+[class*="container"] {
+	max-width: 1087px; //1057+15+15
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+/*--------------*/
+.main {
+	flex: 1 1 auto;
+}
+/*--------------*/
+.button {
+	display: inline-block;
+	font-family: "Raleway", sans-serif;
+	color: #fcfdfe;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 10px;
+	letter-spacing: 0.14em;
+	padding: 14px 30px;
+	background-color: #ec5863;
+	transition: background-color 0.3s ease 0s;
+	&:hover {
+		background-color: #e63d48;
+	}
+	&_blue {
+		background-color: #4285f4;
+		&:hover {
+			background-color: #0957d3;
+		}
+	}
+}
+@import "header";
+@import "get-started";
+//@import "";
+//@import "";
+//@import "";
+//@import "";
+//@import "";
+@import "media";
