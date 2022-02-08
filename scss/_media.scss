@@ -4,6 +4,15 @@
 		max-width: 950px;
 	}
 }
+/*PC*/
+@media (min-width: 991.98px) {
+	.stay-safe {
+		&__media {
+			padding: 0 0 0 47px;
+		}
+	}
+}
+
 /*tablet*/
 @media (max-width: 991.98px) {
 	[class*="container"] {
@@ -26,12 +35,16 @@
 			min-height: 80px;
 		}
 	}
-}
-.menu {
-	&__item {
-		margin-right: 30px;
+	.menu {
+		&__item {
+			margin-right: 30px;
+		}
+	}
+	.stay-safe {
+		padding: 56px 0;
 	}
 }
+
 /*mobile*/
 @media (max-width: 767.98px) {
 	[class*="container"] {
@@ -159,6 +172,14 @@
 		width: 100%;
 		background-color: #fff;
 	}
+	.stay-safe {
+		&__container {
+			flex-direction: column-reverse;
+		}
+		&__content {
+			padding-bottom: 100px;
+		}
+	}
 }
 /*mobile small*/
 @media (max-width: 479.98px) {
@@ -167,5 +188,8 @@
 			flex: 0 0 40px;
 			overflow: hidden;
 		}
+	}
+	.media-stay-safe {
+		max-width: 290px;
 	}
 }
