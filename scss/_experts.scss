@@ -6,11 +6,36 @@
 
 	&__statistics {
 	}
+	&__body {
+		display: flex;
+		align-items: center;
+	}
+	&__content {
+		flex: 0 1 50%;
+		padding: 0 20px 0 0;
+	}
+	&__block-text {
+		max-width: 400px;
+	}
+	&__video {
+		flex: 0 1 50%;
+		position: relative;
+		padding: 0 0 32% 0;
+		iframe {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			object-fit: cover;
+		}
+	}
 }
 .statistics-experts {
 	position: relative;
 	max-width: 655px;
 	margin: 0px auto;
+	margin-bottom: 80px;
 
 	&__body {
 		position: relative;
