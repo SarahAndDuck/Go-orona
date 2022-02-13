@@ -5,7 +5,8 @@
 
 	&__items {
 		display: flex;
-		gap: 56px;
+		column-gap: 56px;
+		row-gap: 30px;
 		align-items: center;
 	}
 

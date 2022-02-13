@@ -239,4 +239,13 @@
 			margin: 0 0 15px 0;
 		}
 	}
+	.footer {
+		margin: 20px auto;
+		&__container {
+		}
+
+		&__items {
+			flex-direction: column;
+		}
+	}
 }
