@@ -21,6 +21,10 @@
 		flex: 0 1 50%;
 		position: relative;
 		padding: 0 0 32% 0;
+		opacity: 0.5;
+		box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+		border-radius: 8px;
+		overflow: hidden;
 		iframe {
 			position: absolute;
 			width: 100%;
