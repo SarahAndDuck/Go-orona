@@ -3,6 +3,11 @@
 	[class*="container"] {
 		max-width: 950px;
 	}
+	.halthcare {
+		&__column {
+			padding: 0px 15px;
+		}
+	}
 }
 /*PC*/
 @media (min-width: 991.98px) {
@@ -42,6 +47,23 @@
 	}
 	.stay-safe {
 		padding: 56px 0;
+	}
+	.halthcare {
+		&__items {
+			flex-direction: column;
+		}
+		&__column {
+			padding: 0 0 35px 0;
+			:not(:last-child) {
+			}
+		}
+	}
+
+	.item-halthcare {
+		padding: 20px 17px;
+		&__icon {
+			margin-bottom: 35px;
+		}
 	}
 }
 
