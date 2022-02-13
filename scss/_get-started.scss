@@ -49,35 +49,6 @@
 		max-width: 410px;
 	}
 }
-/*=================================*/
-.block-text {
-	&__title {
-		font-weight: bold;
-		font-size: 44px;
-		line-height: 126%;
-
-		&:not(:last-child) {
-			margin: 0 0 12px 0;
-		}
-		span {
-			color: #ec5863;
-		}
-		&_blue {
-			span {
-				color: #4285f4;
-			}
-		}
-	}
-
-	&__text {
-		line-height: 138.5%;
-		letter-spacing: 0.08em;
-		&:not(:last-child) {
-			margin: 0 0 24px 0;
-		}
-	}
-}
-/*=================================*/
 
 .video-get-started {
 	display: inline-flex;
